@@ -10,9 +10,5 @@ router.get('/', function(req, res, next) {
 router.get('/quizes/question', quizController.question);
 router.get('/quizes/answer', quizController.answer);
 router.get('/quizes/author', quizController.author);
-/*
-router.get('/author', function(req, res, next) {
-	res.render('author', {authors: [{ name: 'Marcelo Javier Gorski', urlphoto: '/images/foto.jpg'}]});
-});
-*/
+
 module.exports = router;
