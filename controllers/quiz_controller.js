@@ -17,9 +17,8 @@ exports.answer = function(req, res){
 		res.render('quizes/answer', {respuesta: 'Incorrecto'});
 	//})
 };
-/*
+
 //GET /quizes/author
 exports.author = function(reg, res){
 	res.render('quizes/author');
 };
-*/
