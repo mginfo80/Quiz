@@ -24,7 +24,7 @@ exports.Quiz = Quiz;
 //crea e inicializa lista de preguntas en la BD
 sequelize.sync().then(function() {
 	Quiz.count().then(function(cont){
-		if(count === 0){
+		if(cont === 0){
 			Quiz.create({ 	pregunta: 'Capital de Italia',
 							respuesta: 'Roma'})
 			.then(function(){console.log('Base de datos inicializada')});
