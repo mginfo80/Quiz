@@ -22,8 +22,16 @@
 		
 		<nav class="main" id="n1" role="navigation">
 			<span><a href="/">Inicio</a></span><br>
-			<span><a href="/quizes">Preguntas</a></span><br>
-			<span><a href="/quizes/author">Créditos</a></span><br>
+			<span><a href="/quizes">Preguntas</a></span><br><br>
+		
+		<form method="get" action="/quizes?search=Italia">
+			<p>
+			Buscar pregunta:
+				<input type="text" name="search" />
+				<input type="submit" value="Buscar">
+			</p>
+		</form>
+			<br><span><a href="/quizes/author">Créditos</a></span><br>
 		</nav>
 		
 		<section class="main" id="s1">
