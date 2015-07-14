@@ -9,8 +9,8 @@ header, nav, section	{	background: #eee;	text-align: center;	}
 footer				{	background: #eee;	text-align: center;	}
 nav span				{	margin: 0px 10px 0px 0px;	}
 
-table {	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-		font-size: 12px;    margin: 45px;     width: 480px; text-align: left;    border-collapse: collapse; }
+#ErrorMsgs			{	color: #f61;	font-size: smaler }
+table {	margin: 45px;     width: 480px; text-align: left;    border-collapse: collapse; }
 
 th 	{   font-size: 13px;     font-weight: normal;     padding: 8px;     background: #b9c9fe;
 		border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
