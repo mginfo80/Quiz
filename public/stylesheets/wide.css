@@ -20,7 +20,7 @@ nav			{	float: left;
 nav span	{ margin: 0px 100px 0px 0px;}
 section		{ 	float: right; 
 				width: 80%; 
-				height: 200px;
+				height: 500px;
 			}			
 footer 	{ 	position: relative; 
 			margin-top: -50px; /* altura en px del footer con valor negativo */ 
